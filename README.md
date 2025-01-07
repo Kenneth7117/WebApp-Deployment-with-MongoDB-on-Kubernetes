@@ -13,7 +13,7 @@ Making the webapplication accessible externally though the browser
 4. Deployment/Service - Our Own web app with external service
 
 
-WorkFlow:
+## WorkFlow:
 
 ### 1. Config map - MongoDB Endpoint
 
@@ -185,7 +185,7 @@ minikube ip
 - Can be used to validate the cluster
 - Get the IP of the node to access the hosted application
 
-App Output:
+## App Output:
 
 Accessing the ip with the configured External port we can access the deployed Kubernetes application
 
