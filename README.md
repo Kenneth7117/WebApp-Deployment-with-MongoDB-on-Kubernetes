@@ -3,6 +3,8 @@ This repository demonstrates a Deployment of a webapp with Mongo DB using Kubern
 
 Making the webapplication accessible externally though the browser
 
+![Arc](https://github.com/Kenneth7117/WebApp-Deployment-with-MongoDB-on-Kubernetes/blob/main/Architecture.png)
+
 ## We are going to create 4 kubernetes configfile:
 
 1. Config map - MongoDB Endpoint
@@ -181,7 +183,10 @@ kubectl get all
 minikube ip
 ```
 - Can be used to validate the cluster
-- Get the IP of the node to operate the hosted application
+- Get the IP of the node to access the hosted application
 
 App Output:
 
+Accessing the ip with the configured External port we can access the deployed Kubernetes application
+
+![Arc](https://github.com/Kenneth7117/WebApp-Deployment-with-MongoDB-on-Kubernetes/blob/main/Output.png)
